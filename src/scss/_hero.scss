@@ -1,0 +1,21 @@
+.button{
+    padding: 1.5em 3em;
+    margin: 5%;
+    padding: 5px;
+    margin: 1px;
+    width: 300px;
+    font-weight: bold;
+}
+
+.section{
+    width:600px;
+    height:200px;
+    background-color: white;
+}
+
+@media screen and( max-width:786px){
+    .section{
+      height:270px;
+      width:250px;
+    }
+}

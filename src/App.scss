@@ -1,0 +1,41 @@
+@import "./scss/bootstrap.scss";
+
+@import "./scss/header.scss";
+
+@import "./scss/hero.scss";
+
+@import "./scss/fruit.scss";
+
+@import "./scss/country.scss";
+
+@import "./scss/service.scss";
+
+.footer{
+  background-color: #1d3557;
+  text-align: center;
+  color: white;
+}
+
+#root{
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main{
+  flex: 1 0 auto;
+}
+
+.header{
+  background-color: #1d3557;
+}
+
+.forgot{
+  display: flex;
+  justify-content: space-around;
+  margin-left: 360px;
+}  
+
+.sign{
+  margin-left: 240px;
+}
